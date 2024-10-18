@@ -1,0 +1,7 @@
+1.0 = [24.3.0]
+1.1 = [24.13.0]
+multi_tenant = true
+command = python3 start_integration.py
+settings_file_name = settings.json
+default_schedule = 0 */5 * * * ?
+read_from_stdout = false
